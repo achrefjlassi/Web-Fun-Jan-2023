@@ -1,0 +1,35 @@
+*{
+   margin-left: 10%;
+   padding: 0%;
+
+}
+.entéte{
+    color: aqua;
+    padding: 5px;
+    margin-top: 5px;
+}
+h1{
+    font-size:xx-large;
+    font-weight: lighter;
+    font-style:normal;
+}
+.img1{
+  width: 70px;
+}
+.img2{
+  width: 15px;
+}
+.img3{
+    width: 20px;
+
+}
+h3{
+    font-weight: lighter;
+}
+#p1{
+
+}
+#p2{
+    color: blue;
+    text-decoration: underline;
+}

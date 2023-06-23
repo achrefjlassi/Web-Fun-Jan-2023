@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+  
+    <form>
+        <label for="fname">First Name : *</label>
+        <input type="text" id="fname" name="fname" ><br>
+        <label for="lname">Last Name: *</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="EmailAdress">EmailAdress: *</label>
+        <input type="text" id="EmailAdress" name="EmailAdress"><br>
+        <label for="Pasword">Pasword : *</label>
+        <input type="password" id="Pasword" name="Pasword" ><br>
+        <label for="ConfirmPasword">ConfirmPasword : *</label>
+        <input type="Confirmpassword" id="ConfirmPasword" name="ConfirmPasword" ><br>
+        <label for="birthday">birthday</label>
+        <input type="date"><br>
+        <h2>Gender Identity:</h2>
+        <form>
+            <input type="radio"  value="male">
+            <label for="html">male</label>
+            <input type="radio"  value="female">
+            <label for="css">female</label>
+            <input type="radio"  value="non-binary">
+            <label for="non-binary">non-binary</label>
+            <input type="radio"  value="I prefer not to answer">
+            <label for="I prefer not to answer">I prefer not to answer</label>
+          </form>
+        <label for="description">a short description of my self : </label><br>
+        <input type="text" id="description" name="description" ><br>
+        <label for="html">favorite language : </label>
+        <!-- <input type="checkbox" value="javascript"><br>
+        <input type="checkbox"> -->
+        <label for="language">choose a language:</label>
+        <select name="language" id="language">
+            <optgroup label="frontEnd">
+                <option value="html">javascript</option>
+                <option value="css">css</option>
+            </optgroup>
+        </select><br>
+        <input type="checkbox">
+        <label for="html">yes, i would like to receive email update</label><br>
+        <input type="submit" value="Create Account"><br>
+        <p> * indicate a required field</p>
+    </form>
+</body>
+</html>

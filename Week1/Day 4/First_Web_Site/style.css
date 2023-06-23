@@ -1,0 +1,118 @@
+/* reset to default */
+*{
+    padding: 0%;
+    margin: 0%;
+    /* type decriture pour le titre : font-family */
+    font-family: sans-serif;
+}
+/* container content */
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 500px;
+    background-color: coral;
+    padding: 10px;
+    background-color: #062134;
+}
+    /* navigation content */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 10px;  
+    }
+    span{
+        color: rgb(20, 118, 180) ;
+    }
+    h1{
+        font-weight: lighter;
+    }
+    li{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    li:first-child{
+        color:rgb(31, 73, 103) ;
+        
+    }
+    /* main content */
+    main{
+        background-color: white;
+        padding: 10px;
+    }
+    main img{
+        width: 100%;
+        /* margin-bottom: 20%; */
+    }
+       /* sub-content */
+       .sub-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+       }
+
+          /* card content */
+          .card{
+            width: 30%;
+            background-color: blue;
+            padding: 10%;
+            color: white;
+          }
+          .card img{
+            width: 30%;
+            margin-top: 5%;
+          }
+          .card h3{
+            display: inline-block;
+            color: white;
+            font-size: 30%;
+            font-weight: lighter;
+            /* margin-top: 10Px; */
+          }
+          .card p{
+            /* top_bottom(10px)   left-right(0px)*/
+            padding: 10px 0px;
+            margin-bottom: 10px;
+          }
+          .card button {
+            padding: 7px 15px;
+            color: white;
+            background-color: rgb(25,142,216);
+            border: none;
+            border-radius: 10%;
+
+          }
+          .flex{
+            display: flex;
+            /* justify-content: space-between; */
+            width: 65%;
+            margin-top: 5px;
+          }
+          .flex-1{
+            width: 65%;
+          }
+          .flex p{
+            margin-left: 10px;
+          }
+          .flex-2{
+            background-color: aqua;
+            width: 33%;
+            min-height: 100%;
+            margin-left: 25px;
+          }
+          /* footer */
+          footer{
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100px;
+          }
+          footer p{
+            margin: 10%;
+          }
+
+
+

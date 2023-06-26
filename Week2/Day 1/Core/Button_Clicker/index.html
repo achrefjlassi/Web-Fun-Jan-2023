@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+
+            <input type="text" id="search" placeholder="Search">
+            <div class="button1">
+             <button class="btn" onclick="onLogin(this)"  >Login</button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <h1 id="ninja">ninja</h1>
+        <h3>noun</h3>
+        <h3> <span id="plural">Plural:ninjas</span> </h3>
+        <p>A practitioner skiller in the <br> <span style="color: rgb(76, 76, 187);"> Japanese </span> art of <span style="color: rgb(76, 76, 187);"> ninjutsu </span> </p>
+        <button type="button" class="button" onclick="like(this)">13 likes</button>
+        </div>
+
+
+        <div class="container1">
+            <h1 id="ninja">ninja</h1>
+            <h3>noun</h3>
+            <h3> <span id="plural">Plural:ninjas</span> </h3>
+            <div class="description">
+            <p>A <span style="color: rgb(76, 76, 187);"> programmer </span> who breaks <br> down problems with <span style="color: rgb(76, 76, 187);"> zen- </span> like <br> focus</p>
+            </div>
+            <button type="button" class="button" onclick="like(this)">37 likes</button>
+            </div>
+
+
+        <div class="container2">
+            <h3 id="h">Dojonary is <br> defined by YOU </h3>
+
+            <button type="button" class="button2" onclick="remove(this)">Add Definition</button>
+
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

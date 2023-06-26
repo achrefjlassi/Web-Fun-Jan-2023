@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+header{
+    display: flex;
+    background-color:#3b3c3d;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: flex-end;
+
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    flex: 2;
+    margin-top: 10px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    font-family: sans-serif;
+
+}
+
+.nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 10px;
+    height: 50px;
+}
+#search{
+    position: relative;
+    right: 550px;
+    width: 400px;
+}
+.btn{
+    background-color: blue;
+     height: 50px; 
+    width: 80px;
+
+}
+.container {
+    width: 600px;
+    height: 250px;
+    border: 3px solid rgb(124, 122, 122);
+    margin-left: 100px;
+    position: relative;
+    top: 50px;
+}
+#ninja{
+    position: relative;
+    top: 20px;
+}
+
+h3{
+    top: 40px;
+    position: relative;
+    left: 80px;
+}
+#plural{
+    position: relative;
+    right: 30px;
+}
+
+p{
+    font-size: large;
+    position: relative;
+    left: 300px;
+}
+.button{
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.container1{
+    width: 600px;
+    height: 280px;
+    border: 3px solid rgb(124, 122, 122);
+    margin-left: 100px;
+    position: relative;
+    top: 70px;
+}
+
+.container2{
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(124, 122, 122);
+    margin-left: 100px;
+    position: relative;
+    bottom: 500px;
+    left: 900px;
+}
+
+#h{
+    font-size :larger ;
+    position: relative;
+    right: 40px;
+}
+.button2{
+    background-color: green;
+    height: 40px;
+    width: 220px ;
+    position: relative;
+    top: 100px;
+    left: 15px;
+
+}

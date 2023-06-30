@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    margin: 30px;
+    
+}
+
+#box1 {
+    margin: 10px;
+    background-color:aliceblue;
+    border-color: aquamarine;
+    color: aquamarine;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30px;
+}
+#box2 {
+    margin: 10px;
+    background-color: green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: x-large;
+    
+}
+
+#box3 {
+    margin: 10px;
+    color: white;
+    font-size: large;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid black;
+    box-shadow: 5px 7px black;
+}

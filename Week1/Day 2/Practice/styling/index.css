@@ -7,7 +7,35 @@ h1{
     color: white;
     font-weight: bold;
     text-align: left;
+    margin-top: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 span{
     color: aqua;
+}
+h2 {
+    text-align: center;
+    background-color: violet;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+}
+h3 {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    text-align: end;
+    background-color: aqua;
+    font-size:medium;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: normal;
+    text-decoration: underline;
 }

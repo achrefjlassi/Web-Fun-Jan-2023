@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    display: flex;
+   justify-content: space-between;
+     /* align-items: center; */
+    background-color: black;
+    height: 100px;
+    color: white;
+    /* width: 100px; */
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+.nav-title {
+    color: white;
+    margin: 25px;
+}
